@@ -1,0 +1,16 @@
+{
+  "name": "denstyles",
+  "version": "1.0.0",
+  "description": "js styles library",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "styles",
+    "style",
+    "css"
+  ],
+  "author": "Denis Skryabin",
+  "license": "GPL-2.0-only"
+}
