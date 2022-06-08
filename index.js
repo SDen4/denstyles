@@ -1,3 +1,5 @@
-export { Button } from './Button';
+'use strict';
+
+const Button = require('./Button/Button');
 
 module.exports = Button;
