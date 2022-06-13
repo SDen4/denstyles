@@ -1,10 +1,15 @@
 {
   "name": "denstyles",
+  "homepage": "https://github.com/SDen4/denstyles #readme",
   "version": "1.0.4",
   "description": "js styles library",
-  "main": "index.js",
+  "main": "dist/denstyles.js",
+  "types": "dist/denstyles.d.ts",
+  "module": "dist/denstyles.js",
+  "prepublish": "npm run build",
   "scripts": {
-    "test": "test"
+    "dev": "webpack --env development --watch",
+    "build": "webpack --env production"
   },
   "keywords": [
     "styles",
@@ -12,5 +17,36 @@
     "css"
   ],
   "author": "Denis Skryabin",
-  "license": "GPL-2.0-only"
+  "license": "GPL-2.0-only",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.1",
+    "@types/react": "^18.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "babel-loader": "^8.2.4",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-webpack-plugin": "^3.1.1",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "react": "^18.1.0"
+  }
 }
