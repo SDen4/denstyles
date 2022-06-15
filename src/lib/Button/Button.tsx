@@ -15,7 +15,7 @@ const Button: React.FC<ButtonType> = ({
     type={type}
     onClick={onclick}
     disabled={disabled}
-    className={styles.button}
+    className={`${styles.button} ${addClass}`}
   >
     {title}
   </button>
