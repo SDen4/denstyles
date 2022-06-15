@@ -1,5 +1,7 @@
 export type InputType = {
   placeholder?: string;
-  onChange?: () => void;
   label?: string | undefined;
+  vertical: boolean;
+  onChange?: () => void;
+  onSubmit?: () => void;
 };

@@ -4,12 +4,17 @@ import styles from './styles.module.css';
 
 const TextInput: React.FC<InputType> = ({
   placeholder = 'Enter the value',
-  onChange = () => null,
   label,
+  vertical = false,
+  onChange = () => null,
+  onSubmit = () => null,
 }): JSX.Element => (
-  <>
+  <div className={`${styles.textInputWrapper} ${vertical && styles.vertical}`}>
     {label?.length && (
-      <label className={styles.label} htmlFor="testInput">
+      <label
+        className={`${styles.label} ${vertical && styles.labelVertical}`}
+        htmlFor="testInput"
+      >
         {label}
       </label>
     )}
@@ -20,8 +25,9 @@ const TextInput: React.FC<InputType> = ({
       type="text"
       placeholder={placeholder}
       onChange={onChange}
+      onSubmit={onSubmit}
     />
-  </>
+  </div>
 );
 
 export default TextInput;
