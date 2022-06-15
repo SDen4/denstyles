@@ -2,7 +2,7 @@ export type InputType = {
   placeholder?: string;
   label?: string | undefined;
   vertical?: boolean;
-  onChange?: () => void;
-  onSubmit?: () => void;
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  onSubmit?: (event: React.SyntheticEvent) => void;
   addClass?: unknown;
 };

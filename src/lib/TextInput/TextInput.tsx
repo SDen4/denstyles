@@ -10,10 +10,11 @@ const TextInput: React.FC<InputType> = ({
   onSubmit = () => null,
   addClass = {},
 }): JSX.Element => (
-  <div
+  <form
     className={`${styles.textInputWrapper} ${
       vertical && styles.vertical
     } ${addClass}`}
+    onSubmit={onSubmit}
   >
     {label?.length && (
       <label
@@ -30,9 +31,8 @@ const TextInput: React.FC<InputType> = ({
       type="text"
       placeholder={placeholder}
       onChange={onChange}
-      onSubmit={onSubmit}
     />
-  </div>
+  </form>
 );
 
 export default TextInput;
