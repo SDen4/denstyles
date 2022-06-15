@@ -8,8 +8,13 @@ const TextInput: React.FC<InputType> = ({
   vertical = false,
   onChange = () => null,
   onSubmit = () => null,
+  addClass = {},
 }): JSX.Element => (
-  <div className={`${styles.textInputWrapper} ${vertical && styles.vertical}`}>
+  <div
+    className={`${styles.textInputWrapper} ${
+      vertical && styles.vertical
+    } ${addClass}`}
+  >
     {label?.length && (
       <label
         className={`${styles.label} ${vertical && styles.labelVertical}`}
