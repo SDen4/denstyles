@@ -1,7 +1,7 @@
 {
   "name": "denstyles",
   "homepage": "https://github.com/SDen4/denstyles #readme",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "js styles library",
   "main": "dist/denstyles.js",
   "types": "dist/denstyles.d.ts",
@@ -18,16 +18,10 @@
   ],
   "author": "Denis Skryabin",
   "license": "GPL-2.0-only",
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build"
-    }
-  },
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
-    "@types/jest": "^27.4.1",
     "@types/react": "^18.0.12",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
@@ -40,8 +34,6 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-webpack-plugin": "^3.1.1",
-    "husky": "^7.0.4",
-    "jest": "^27.5.1",
     "mini-css-extract-plugin": "^2.6.0",
     "style-loader": "^3.3.1",
     "ts-loader": "^9.2.8",
