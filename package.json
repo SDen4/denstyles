@@ -1,6 +1,6 @@
 {
   "name": "denstyles",
-  "homepage": "https://github.com/SDen4/denstyles #readme",
+  "homepage": "https://github.com/SDen4/denstyles#readme",
   "version": "1.0.18",
   "description": "js styles library",
   "main": "dist/denstyles.js",
@@ -14,7 +14,10 @@
   "keywords": [
     "styles",
     "style",
-    "css"
+    "style lib",
+    "css",
+    "button",
+    "textInput"
   ],
   "author": "Denis Skryabin",
   "license": "GPL-2.0-only",
