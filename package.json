@@ -1,7 +1,7 @@
 {
   "name": "denstyles",
   "homepage": "https://github.com/SDen4/denstyles #readme",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "js styles library",
   "main": "dist/denstyles.js",
   "types": "dist/denstyles.d.ts",
