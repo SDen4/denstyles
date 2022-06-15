@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ButtonType } from './types';
 
-import { styles } from './styles.module.css';
+import styles from './styles.module.css';
 
 const Button: React.FC<ButtonType> = ({
   type = 'button',

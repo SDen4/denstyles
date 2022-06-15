@@ -1,7 +1,7 @@
 {
   "name": "denstyles",
   "homepage": "https://github.com/SDen4/denstyles #readme",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "js styles library",
   "main": "dist/denstyles.js",
   "types": "dist/denstyles.d.ts",
@@ -42,6 +42,7 @@
     "eslint-webpack-plugin": "^3.1.1",
     "husky": "^7.0.4",
     "jest": "^27.5.1",
+    "mini-css-extract-plugin": "^2.6.0",
     "style-loader": "^3.3.1",
     "ts-loader": "^9.2.8",
     "typescript": "^4.6.3",
