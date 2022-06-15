@@ -4,5 +4,5 @@ export type InputType = {
   vertical?: boolean;
   onChange?: () => void;
   onSubmit?: () => void;
-  addClass: unknown;
+  addClass?: unknown;
 };
