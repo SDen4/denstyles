@@ -1,5 +1,6 @@
-// eslint-disable-next-line import/extensions
+/* eslint-disable import/extensions */
 import Button from './lib/Button/Button';
+import TextInput from './lib/TextInput/TextInput';
 
-export { Button };
-export default { Button };
+export { Button, TextInput };
+export default { Button, TextInput };
