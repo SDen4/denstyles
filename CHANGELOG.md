@@ -2,6 +2,14 @@
 
 ---
 
+### 1.0.24b
+
+Test version of the new webpack config
+
+### 1.0.24a
+
+Test version of the new webpack config
+
 ### 1.0.24
 
 Added descriptions of the components

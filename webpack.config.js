@@ -1,6 +1,5 @@
 const path = require('path');
 const ESLintPlugin = require('eslint-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = ({ development }) => ({
   entry: './src/denstyles.ts',
@@ -39,16 +38,7 @@ module.exports = ({ development }) => ({
         ],
         include: /\.module\.css$/,
       },
-      {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
-        // use: ['style-loader', 'css-loader'],
-        exclude: /\.module\.css$/,
-      },
     ],
   },
-  plugins: [
-    new ESLintPlugin({ extensions: ['ts', 'tsx'] }),
-    new MiniCssExtractPlugin(),
-  ],
+  plugins: [new ESLintPlugin({ extensions: ['ts', 'tsx'] })],
 });
