@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropsWithChildren } from 'react';
 
 import { PropsType } from './types';
 
@@ -8,7 +8,7 @@ import classes from './styles.module.css';
  *Component for Flex markup elevent
  */
 
-const Flex: React.FC<PropsType> = ({
+const Flex: React.FC<PropsWithChildren<PropsType>> = ({
   children,
   className,
   style,
