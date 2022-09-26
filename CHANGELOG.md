@@ -2,6 +2,10 @@
 
 ---
 
+### 1.0.23
+
+Refactoring Flex
+
 ### 1.0.22
 
 Refactoring Flex
