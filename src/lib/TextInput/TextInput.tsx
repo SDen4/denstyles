@@ -1,6 +1,22 @@
 import React from 'react';
+
 import { InputType } from './types';
+
 import styles from './styles.module.css';
+
+/**
+ *Component for test input
+ *
+ * @param {*} {
+ *   placeholder = 'Enter the value',
+ *   label,
+ *   vertical = false,
+ *   onChange = () => null,
+ *   onSubmit = () => null,
+ *   addClass = {},
+ * }
+ * @return {*}  {JSX.Element}
+ */
 
 const TextInput: React.FC<InputType> = ({
   placeholder = 'Enter the value',

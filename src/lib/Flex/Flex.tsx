@@ -5,7 +5,14 @@ import { PropsType } from './types';
 import classes from './styles.module.css';
 
 /**
- *Component for Flex markup elevent
+ *Component for Flex markup element
+ *
+ * @param {*} {
+ *   children,
+ *   className,
+ *   style,
+ *   ...props
+ * }
  */
 
 const Flex: React.FC<PropsWithChildren<PropsType>> = ({
