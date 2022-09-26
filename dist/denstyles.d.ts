@@ -6,6 +6,6 @@ export { Button, TextInput, Flex };
 declare const _default: {
     Button: import("react").FC<import("./lib/Button/types").ButtonType>;
     TextInput: import("react").FC<import("./lib/TextInput/types").InputType>;
-    Flex: import("react").FC<import("./lib/Flex/types").PropsType>;
+    Flex: import("react").FC<import("react").PropsWithChildren<import("./lib/Flex/types").PropsType>>;
 };
 export default _default;
