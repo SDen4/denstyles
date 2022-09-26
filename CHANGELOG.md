@@ -2,6 +2,11 @@
 
 ---
 
+### 1.0.24
+
+Added descriptions of the components
+Delete airbnb eslint config & libs
+
 ### 1.0.23
 
 Refactoring Flex
