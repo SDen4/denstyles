@@ -2,6 +2,10 @@
 
 ---
 
+### 1.1.1
+
+Delete extra code
+
 ### 1.1.0
 
 New webpack config
@@ -35,3 +39,11 @@ Add change log
 ### 1.0.20
 
 Added Flex component
+
+### 1.0.19
+
+Added props descriptions
+
+### 1.0.18
+
+TextInput component update
