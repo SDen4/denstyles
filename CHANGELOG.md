@@ -2,6 +2,10 @@
 
 ---
 
+### 1.1.0
+
+New webpack config
+
 ### 1.0.24b
 
 Test version of the new webpack config
