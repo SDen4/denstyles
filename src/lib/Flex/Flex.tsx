@@ -1,14 +1,12 @@
 import React from 'react';
 
+import { PropsType } from './types';
+
 import classes from './styles.module.css';
 
-type PropsType = {
-  children: JSX.Element;
-  className?: string;
-  props?: unknown;
-  onClick?: () => void;
-  style?: React.CSSProperties | undefined;
-};
+/**
+ *Component for Flex markup elevent
+ */
 
 const Flex: React.FC<PropsType> = ({
   children,
@@ -20,4 +18,5 @@ const Flex: React.FC<PropsType> = ({
     {children}
   </div>
 );
+
 export default Flex;
