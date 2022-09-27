@@ -2,6 +2,10 @@
 
 ---
 
+### 1.3.4
+
+Types refactoring
+
 ### 1.3.3
 
 Configuration
