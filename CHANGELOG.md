@@ -2,6 +2,10 @@
 
 ---
 
+### 1.3.2
+
+Change dependencies
+
 ### 1.3.1
 
 Script for publish
