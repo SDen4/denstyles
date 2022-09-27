@@ -1,12 +1,15 @@
 {
   "name": "denstyles",
   "homepage": "https://github.com/SDen4/denstyles#readme",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "js styles library",
   "main": "dist/denstyles.js",
   "types": "dist/denstyles.d.ts",
   "module": "dist/denstyles.js",
   "prepublish": "npm run build",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "webpack --env development --watch",
     "build": "webpack --env production",

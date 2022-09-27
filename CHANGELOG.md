@@ -2,6 +2,10 @@
 
 ---
 
+### 1.3.3
+
+Configuration
+
 ### 1.3.2
 
 Change dependencies
@@ -30,7 +34,7 @@ Update Loader component
 
 Add Loader component
 
-### 1.1.11
+### 1.1.1
 
 Delete extra code
 
