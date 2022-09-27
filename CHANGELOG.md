@@ -2,7 +2,11 @@
 
 ---
 
-### 1.1.1
+### 1.2.0
+
+Add Loader component
+
+### 1.1.11
 
 Delete extra code
 
