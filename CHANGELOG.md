@@ -2,6 +2,10 @@
 
 ---
 
+### 1.3.0
+
+Script for publish
+
 ### 1.2.3
 
 Update Loader component
