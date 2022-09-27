@@ -2,6 +2,10 @@
 
 ---
 
+### 1.2.3
+
+Update Loader component
+
 ### 1.2.2
 
 Fix lib size bug
