@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "webpack --env development --watch",
     "build": "webpack --env production",
-    "publish": "build publish"
+    "prepublishOnly": "webpack --env production"
   },
   "keywords": [
     "styles",
