@@ -14,13 +14,23 @@ import styles from './styles.module.css';
  */
 
 const Loader: React.FC<LoaderType> = ({ color }) => {
+  const bgColor = color || 'rgb(10, 160, 10)';
+
   return (
     <Flex className={styles.loaderWrapper}>
       <div className={styles.ldsDefault}>
-        {new Array(12).map((el) => (
-          <div style={{ background: color || 'rgb(10, 160, 10)' }} key={el} />
-        ))}
-        <div />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
+        <div style={{ background: bgColor }} />
       </div>
     </Flex>
   );
