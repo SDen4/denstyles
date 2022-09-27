@@ -1,7 +1,6 @@
 .loaderWrapper {
   justify-content: center;
   align-items: center;
-  padding: 75px 0 0;
   width: 100%;
 }
 .ldsDefault {
@@ -14,7 +13,6 @@
   position: absolute;
   width: 6px;
   height: 6px;
-  background: #ff8c00;
   border-radius: 50%;
   animation: ldsDefault 1.2s linear infinite;
 }
