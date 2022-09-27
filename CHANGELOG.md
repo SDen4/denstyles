@@ -2,6 +2,10 @@
 
 ---
 
+### 1.2.1
+
+Update Loader component
+
 ### 1.2.0
 
 Add Loader component
