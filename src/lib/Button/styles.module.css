@@ -4,18 +4,13 @@
   border: 0;
   border-radius: 3px;
   outline: none;
-  background-color: rgb(10, 160, 10);
   color: #fff;
   transition: background-color 0.2s;
   cursor: pointer;
   font-size: 16px;
 }
 
-.button:hover {
-  background-color: rgb(10, 140, 10);
-}
-
-.button:disabled {
+.disabled {
   background-color: rgba(210, 210, 210, 0.7);
   cursor: not-allowed;
 }

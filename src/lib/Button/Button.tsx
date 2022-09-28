@@ -3,6 +3,7 @@ import React from 'react';
 import { ButtonType } from './types';
 
 import styles from './styles.module.css';
+import { defaultBGColor, defaultColor } from '../constants';
 
 /**
  *Button component
@@ -13,6 +14,8 @@ import styles from './styles.module.css';
  *   disabled = false,
  *   onclick = () => null,
  *   addClass = {},
+ *   backgroundColor = string,
+ *   color = string
  * }
  * @return {*}  {JSX.Element}
  */
@@ -23,12 +26,17 @@ const Button: React.FC<ButtonType> = ({
   disabled = false,
   onclick = () => null,
   addClass = {},
+  backgroundColor = defaultBGColor,
+  color = defaultColor,
 }): JSX.Element => (
   <button
     type={type}
     onClick={onclick}
     disabled={disabled}
-    className={`${styles.button} ${addClass}`}
+    className={`${styles.button} ${
+      disabled ? styles.disabled : ''
+    } ${addClass}`}
+    style={{ backgroundColor, color }}
   >
     {title}
   </button>
