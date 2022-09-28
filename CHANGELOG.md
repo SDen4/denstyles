@@ -2,6 +2,10 @@
 
 ---
 
+### 1.4.0
+
+Add abiblity to change backgroundColor and Color for Button
+
 ### 1.3.4
 
 Types refactoring
