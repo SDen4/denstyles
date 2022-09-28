@@ -25,7 +25,7 @@ const Button: React.FC<ButtonType> = ({
   title = 'Push',
   disabled = false,
   onclick = () => null,
-  className = '',
+  className,
   backgroundColor = defaultBGColor,
   color = defaultColor,
 }): JSX.Element => (
@@ -33,9 +33,9 @@ const Button: React.FC<ButtonType> = ({
     type={type}
     onClick={onclick}
     disabled={disabled}
-    className={`${styles.button} ${
+    className={`${styles.button} ${className} ${
       disabled ? styles.disabled : ''
-    } ${className}`}
+    }`}
     style={{ backgroundColor, color }}
   >
     {title}
