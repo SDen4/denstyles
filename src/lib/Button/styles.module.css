@@ -11,6 +11,6 @@
 }
 
 .disabled {
-  background-color: rgba(210, 210, 210, 0.7);
+  background-color: rgba(210, 210, 210, 0.7) !important;
   cursor: not-allowed;
 }

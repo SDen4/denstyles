@@ -13,9 +13,9 @@ import { defaultBGColor, defaultColor } from '../constants';
  *   title = 'Push',
  *   disabled = false,
  *   onclick = () => null,
- *   addClass = {},
- *   backgroundColor = string,
- *   color = string
+ *   className = '',
+ *   backgroundColor = '',
+ *   color = ''
  * }
  * @return {*}  {JSX.Element}
  */
@@ -25,7 +25,7 @@ const Button: React.FC<ButtonType> = ({
   title = 'Push',
   disabled = false,
   onclick = () => null,
-  addClass = {},
+  className = '',
   backgroundColor = defaultBGColor,
   color = defaultColor,
 }): JSX.Element => (
@@ -35,7 +35,7 @@ const Button: React.FC<ButtonType> = ({
     disabled={disabled}
     className={`${styles.button} ${
       disabled ? styles.disabled : ''
-    } ${addClass}`}
+    } ${className}`}
     style={{ backgroundColor, color }}
   >
     {title}

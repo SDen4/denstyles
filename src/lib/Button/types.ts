@@ -8,7 +8,7 @@ export type ButtonType = {
   /** Button on click handler  */
   onclick?: () => void;
   /** Add your class to style button */
-  addClass?: unknown;
+  className?: string;
   /** Add your background color */
   backgroundColor?: string;
   /** Add your text color */
