@@ -1,16 +1,16 @@
 export type InputType = {
-  /** placeholder, by default: 'Enter the value' */
+  /** Placeholder, by default: 'Enter the value' */
   placeholder?: string;
-  /** label, by default: none */
+  /** Label, by default: none */
   label?: string | undefined;
-  /** vertical label (above the input) */
+  /** Vertical label (above the input) */
   vertical?: boolean;
-  /** change input handler */
+  /** Change input handler */
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  /** submit form handler */
+  /** Submit form handler */
   onSubmit?: (event: React.SyntheticEvent) => void;
-  /** add class to form,
-   * use your class + label to style label,
-   * use your class + input to style input */
+  /** Add class to form,
+   * Use your class + label to style label,
+   * Use your class + input to style input */
   addClass?: unknown;
 };

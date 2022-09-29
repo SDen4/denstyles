@@ -1,12 +1,16 @@
 export type ButtonType = {
-  /** button type */
+  /** Button type */
   type?: 'button' | 'reset' | 'submit';
-  /** button title */
+  /** Button title */
   title?: string;
-  /** disable button */
+  /** Disable button */
   disabled?: boolean;
-  /** button on click handler  */
+  /** Button on click handler  */
   onclick?: () => void;
-  /** add your class to style button */
-  addClass?: unknown;
+  /** Add your class to style button */
+  className?: string;
+  /** Add your background color */
+  backgroundColor?: string;
+  /** Add your text color */
+  color?: string;
 };

@@ -1,12 +1,14 @@
 {
   "name": "denstyles",
   "homepage": "https://github.com/SDen4/denstyles#readme",
-  "version": "1.3.1",
+  "version": "1.4.4",
   "description": "js styles library",
   "main": "dist/denstyles.js",
   "types": "dist/denstyles.d.ts",
   "module": "dist/denstyles.js",
-  "prepublish": "npm run build",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "webpack --env development --watch",
     "build": "webpack --env production",
@@ -18,7 +20,9 @@
     "style lib",
     "css",
     "button",
-    "textInput"
+    "textInput",
+    "loader",
+    "preloader"
   ],
   "author": "Denis Skryabin",
   "license": "GPL-2.0-only",
@@ -33,16 +37,12 @@
     "babel-preset-es2015": "^6.24.1",
     "css-loader": "^6.7.1",
     "eslint": "^8.13.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-webpack-plugin": "^3.1.1",
+    "react": "^18.1.0",
     "style-loader": "^3.3.1",
     "ts-loader": "^9.2.8",
     "typescript": "^4.6.3",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"
-  },
-  "dependencies": {
-    "react": "^18.1.0"
   }
 }

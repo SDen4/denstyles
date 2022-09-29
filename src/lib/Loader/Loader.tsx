@@ -4,6 +4,8 @@ import Flex from '../Flex/Flex';
 
 import { LoaderType } from './types';
 
+import { defaultBGColor } from '../constants';
+
 import styles from './styles.module.css';
 
 /**
@@ -14,7 +16,7 @@ import styles from './styles.module.css';
  */
 
 const Loader: React.FC<LoaderType> = ({ color }) => {
-  const bgColor = color || 'rgb(10, 160, 10)';
+  const bgColor = color || defaultBGColor;
 
   return (
     <Flex className={styles.loaderWrapper}>

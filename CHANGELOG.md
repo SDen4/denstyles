@@ -2,6 +2,38 @@
 
 ---
 
+### 1.4.4
+
+Optimisation devDependencies: delete "eslint-plugin-import" & "eslint-plugin-jsx-a11y"
+
+### 1.4.3
+
+Config refactoring
+
+### 1.4.2
+
+Refactoring Button
+
+### 1.4.1
+
+Refactoring Button
+
+### 1.4.0
+
+Add abiblity to change backgroundColor and Color for Button
+
+### 1.3.4
+
+Types refactoring
+
+### 1.3.3
+
+Configuration
+
+### 1.3.2
+
+Change dependencies
+
 ### 1.3.1
 
 Script for publish
@@ -26,7 +58,7 @@ Update Loader component
 
 Add Loader component
 
-### 1.1.11
+### 1.1.1
 
 Delete extra code
 
