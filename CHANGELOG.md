@@ -2,6 +2,10 @@
 
 ---
 
+### 1.4.3
+
+Config refactoring
+
 ### 1.4.2
 
 Refactoring Button

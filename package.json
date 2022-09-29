@@ -1,12 +1,11 @@
 {
   "name": "denstyles",
   "homepage": "https://github.com/SDen4/denstyles#readme",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "js styles library",
   "main": "dist/denstyles.js",
   "types": "dist/denstyles.d.ts",
   "module": "dist/denstyles.js",
-  "prepublish": "npm run build",
   "files": [
     "dist"
   ],
@@ -21,7 +20,9 @@
     "style lib",
     "css",
     "button",
-    "textInput"
+    "textInput",
+    "loader",
+    "preloader"
   ],
   "author": "Denis Skryabin",
   "license": "GPL-2.0-only",
