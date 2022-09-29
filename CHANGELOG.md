@@ -2,6 +2,10 @@
 
 ---
 
+### 1.4.4
+
+Optimisation devDependencies: delete "eslint-plugin-import" & "eslint-plugin-jsx-a11y"
+
 ### 1.4.3
 
 Config refactoring

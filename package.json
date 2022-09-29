@@ -1,7 +1,7 @@
 {
   "name": "denstyles",
   "homepage": "https://github.com/SDen4/denstyles#readme",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "js styles library",
   "main": "dist/denstyles.js",
   "types": "dist/denstyles.d.ts",
@@ -37,8 +37,6 @@
     "babel-preset-es2015": "^6.24.1",
     "css-loader": "^6.7.1",
     "eslint": "^8.13.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-webpack-plugin": "^3.1.1",
     "react": "^18.1.0",
     "style-loader": "^3.3.1",
