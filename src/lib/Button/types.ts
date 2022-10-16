@@ -1,4 +1,6 @@
-export type ButtonType = {
+import { HTMLAttributes } from 'react';
+
+export interface IButton extends HTMLAttributes<HTMLButtonElement> {
   /** Button type */
   type?: 'button' | 'reset' | 'submit';
   /** Button title */
@@ -13,4 +15,4 @@ export type ButtonType = {
   backgroundColor?: string;
   /** Add your text color */
   color?: string;
-};
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ButtonType } from './types';
+import { IButton } from './types';
 
 import styles from './styles.module.css';
 import { defaultBGColor, defaultColor } from '../constants';
@@ -20,7 +20,7 @@ import { defaultBGColor, defaultColor } from '../constants';
  * @return {*}  {JSX.Element}
  */
 
-const Button: React.FC<ButtonType> = ({
+const Button: React.FC<IButton> = ({
   type = 'button',
   title = 'Push',
   disabled = false,
