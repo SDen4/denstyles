@@ -1,4 +1,6 @@
-export interface PropsType {
+import { HTMLAttributes } from 'react';
+
+export interface PropsType extends HTMLAttributes<HTMLDivElement> {
   /** Add className */
   className?: string;
   /** Additional props */
